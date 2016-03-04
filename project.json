@@ -1,0 +1,10 @@
+{
+    "name": "school_",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "school_.xml",
+    "author": "LindsayZhawesome",
+    "minimum_firmware_version": 42
+}
