@@ -12,12 +12,12 @@
           <block type="oled_setcursor" id="191" inline="true">
             <value name="STARTX">
               <block type="math_number" id="295">
-                <field name="NUM">0</field>
+                <field name="NUM">10</field>
               </block>
             </value>
             <value name="STARTY">
               <block type="math_number" id="308">
-                <field name="NUM">0</field>
+                <field name="NUM">10</field>
               </block>
             </value>
             <next>
@@ -34,12 +34,12 @@
                       <block type="oled_setcursor" id="235" inline="true">
                         <value name="STARTX">
                           <block type="math_number" id="315">
-                            <field name="NUM">0</field>
+                            <field name="NUM">10</field>
                           </block>
                         </value>
                         <value name="STARTY">
                           <block type="math_number" id="322">
-                            <field name="NUM">0</field>
+                            <field name="NUM">20</field>
                           </block>
                         </value>
                         <next>
@@ -56,12 +56,12 @@
                                   <block type="oled_setcursor" id="268" inline="true">
                                     <value name="STARTX">
                                       <block type="math_number" id="347">
-                                        <field name="NUM">0</field>
+                                        <field name="NUM">10</field>
                                       </block>
                                     </value>
                                     <value name="STARTY">
                                       <block type="math_number" id="354">
-                                        <field name="NUM">0</field>
+                                        <field name="NUM">30</field>
                                       </block>
                                     </value>
                                     <next>
