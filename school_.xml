@@ -101,26 +101,36 @@
                                                   <block type="led_select" id="28" inline="true">
                                                     <field name="ACTION">FLASH</field>
                                                     <value name="LED">
-                                                      <block type="sensor_light" id="29">
-                                                        <field name="LIGHT">LEFT</field>
+                                                      <block type="math_number" id="40">
+                                                        <field name="NUM">1</field>
                                                       </block>
                                                     </value>
                                                     <next>
                                                       <block type="led_select" id="30" inline="true">
-                                                        <field name="ACTION">ON</field>
+                                                        <field name="ACTION">FLASH</field>
                                                         <value name="LED">
-                                                          <block type="sensor_light" id="31">
-                                                            <field name="LIGHT">REAR</field>
+                                                          <block type="math_number" id="47">
+                                                            <field name="NUM">2</field>
                                                           </block>
                                                         </value>
                                                         <next>
                                                           <block type="led_select" id="32" inline="true">
                                                             <field name="ACTION">FLASH</field>
                                                             <value name="LED">
-                                                              <block type="sensor_light" id="33">
-                                                                <field name="LIGHT">RIGHT</field>
+                                                              <block type="math_number" id="54">
+                                                                <field name="NUM">3</field>
                                                               </block>
                                                             </value>
+                                                            <next>
+                                                              <block type="led_select" id="69" inline="true">
+                                                                <field name="ACTION">FLASH</field>
+                                                                <value name="LED">
+                                                                  <block type="math_number" id="76">
+                                                                    <field name="NUM">4</field>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </next>
                                                           </block>
                                                         </next>
                                                       </block>
